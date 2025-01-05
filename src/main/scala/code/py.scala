@@ -1,5 +1,5 @@
 package code
 
-object py {
-
+object py extends App{
+println("py")
 }
