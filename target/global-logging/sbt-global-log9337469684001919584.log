@@ -1,0 +1,11 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to C:\Users\Dell\Downloads\Texteditor_react_scala\Texteditor_react_scala\target\scala-2.13\classes ...
+[error] C:\Users\Dell\Downloads\Texteditor_react_scala\Texteditor_react_scala\src\main\scala\Main.scala:8:25: not found: value TextEditor
+[error]         ReactDOM.render(TextEditor(), document.getElementById("root"))
+[error]                         ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 6 s, completed Jul 24, 2024, 1:40:37 PM
+[debug] > Exec(idea-shell, None, None)

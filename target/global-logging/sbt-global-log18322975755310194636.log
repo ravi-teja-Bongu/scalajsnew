@@ -1,0 +1,14 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 3 Scala sources to C:\Users\Dell\Downloads\Texteditor_react_scala\Texteditor_react_scala\target\scala-2.13\classes ...
+[info] C:\Users\Dell\Downloads\Texteditor_react_scala\Texteditor_react_scala\src\main\scala\TextEditor.scala:86:2: Using fallback derivation for type comp.State (derivation: MacroReadersImpl)
+[info] @react class TextEditor extends Component {
+[info]  ^
+[info] C:\Users\Dell\Downloads\Texteditor_react_scala\Texteditor_react_scala\src\main\scala\TextEditor.scala:86:2: Using fallback derivation for type comp.State (derivation: MacroWritersImpl)
+[info] @react class TextEditor extends Component {
+[info]  ^
+[info] done compiling
+[debug] Global IR cache stats: reused: 0 -- invalidated: 0 -- trees read: 0
+[success] Total time: 1 s, completed Jul 25, 2024, 4:14:09 PM
+[debug] > Exec(idea-shell, None, None)

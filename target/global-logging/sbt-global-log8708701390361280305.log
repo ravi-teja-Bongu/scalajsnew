@@ -1,0 +1,12 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 3 Scala sources to C:\Users\Dell\Downloads\Texteditor_react_scala\Texteditor_react_scala\target\scala-2.13\classes ...
+[error] C:\Users\Dell\Downloads\Texteditor_react_scala\Texteditor_react_scala\src\main\scala\NewWindowEditor.scala:16:7: `override` modifier required to override concrete member:
+[error] def componentDidMount(): Unit (defined in class DefinitionBase)
+[error]   def componentDidMount(): Unit = {
+[error]       ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 5 s, completed Jul 24, 2024, 7:07:25 PM
+[debug] > Exec(idea-shell, None, None)

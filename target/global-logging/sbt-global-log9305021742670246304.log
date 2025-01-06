@@ -1,0 +1,18 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 3 Scala sources to C:\Users\Dell\Downloads\Texteditor_react_scala\Texteditor_react_scala\target\scala-2.13\classes ...
+[error] C:\Users\Dell\Downloads\Texteditor_react_scala\Texteditor_react_scala\src\main\scala\Main.scala:19:29: type mismatch;
+[error]  found   : NewWindowEditor.type
+[error]  required: String | scala.scalajs.js.Object
+[error]         React.createElement(NewWindowEditor, null),
+[error]                             ^
+[error] C:\Users\Dell\Downloads\Texteditor_react_scala\Texteditor_react_scala\src\main\scala\Main.scala:24:29: type mismatch;
+[error]  found   : TextEditor.type
+[error]  required: String | scala.scalajs.js.Object
+[error]         React.createElement(TextEditor, null),
+[error]                             ^
+[error] two errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 5 s, completed Jul 24, 2024, 7:20:03 PM
+[debug] > Exec(idea-shell, None, None)
