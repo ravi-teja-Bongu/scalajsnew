@@ -1,0 +1,15 @@
+[debug] > Exec(fastOptJS, None, None)
+[debug] Evaluating tasks: Compile / fastOptJS
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to C:\Users\Dell\Downloads\Texteditor_react_scala\Texteditor_react_scala\target\scala-2.13\classes ...
+[info] C:\Users\Dell\Downloads\Texteditor_react_scala\Texteditor_react_scala\src\main\scala\TextEditor.scala:93:2: Using fallback derivation for type comp.State (derivation: MacroReadersImpl)
+[info] @react class TextEditor extends Component {//By using the @react annotation, you tell Slinky to generate the necessary boilerplate
+[info]  ^
+[info] C:\Users\Dell\Downloads\Texteditor_react_scala\Texteditor_react_scala\src\main\scala\TextEditor.scala:93:2: Using fallback derivation for type comp.State (derivation: MacroWritersImpl)
+[info] @react class TextEditor extends Component {//By using the @react annotation, you tell Slinky to generate the necessary boilerplate
+[info]  ^
+[info] done compiling
+[info] Fast optimizing C:\Users\Dell\Downloads\Texteditor_react_scala\Texteditor_react_scala\target\scala-2.13\texteditor_react_scala-fastopt
+[debug] Global IR cache stats: reused: 0 -- invalidated: 16 -- trees read: 370
+[success] Total time: 10 s, completed Aug 7, 2024, 12:30:40 PM
+[debug] > Exec(idea-shell, None, None)

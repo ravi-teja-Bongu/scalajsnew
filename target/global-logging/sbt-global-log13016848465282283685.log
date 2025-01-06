@@ -1,0 +1,9 @@
+[debug] > Exec(fastOptJS, None, None)
+[debug] Evaluating tasks: Compile / fastOptJS
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to C:\Users\Dell\Downloads\Texteditor_react_scala\Texteditor_react_scala\target\scala-2.13\classes ...
+[info] done compiling
+[info] Fast optimizing C:\Users\Dell\Downloads\Texteditor_react_scala\Texteditor_react_scala\target\scala-2.13\texteditor_react_scala-fastopt
+[debug] Global IR cache stats: reused: 0 -- invalidated: 18 -- trees read: 352
+[success] Total time: 9 s, completed Aug 7, 2024, 1:55:47 PM
+[debug] > Exec(idea-shell, None, None)

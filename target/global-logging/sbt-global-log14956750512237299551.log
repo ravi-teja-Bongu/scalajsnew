@@ -1,0 +1,8 @@
+[debug] > Exec(fastOptJs, None, None)
+[error] Not a valid command: fastOptJs (similar: iflast)
+[error] Not a valid project ID: fastOptJs
+[error] Expected ':'
+[error] Not a valid key: fastOptJs (similar: fastOptJS, testOptions, fullOptJS)
+[error] fastOptJs
+[error]          ^
+[debug] > Exec(idea-shell, None, None)

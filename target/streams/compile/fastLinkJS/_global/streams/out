@@ -1,0 +1,27 @@
+[info] Fast optimizing C:\Users\Dell\Downloads\Texteditor_react_scala\Texteditor_react_scala\target\scala-2.13\texteditor_react_scala-fastopt
+[debug] Linker: Compute reachability: 320679 us
+[debug] Linker: Assemble LinkedClasses: 36246 us
+[debug] Linker: 396721 us
+[debug] Optimizer: Batch mode: true
+[debug] Optimizer: Incremental part: 105196 us
+[debug] Optimizer: Optimizing 1327 methods.
+[debug] Optimizer: Optimizer part: 686900 us
+[debug] Optimizer: 801228 us
+[debug] Refiner: Compute reachability: 28362 us
+[debug] Refiner: Assemble LinkedClasses: 6050 us
+[debug] Refiner: 36570 us
+[debug] Module Splitter: Calculate Dependency Info: 2465 us
+[debug] Module Splitter: Analyze Modules: 557 us
+[debug] Module Splitter: Assemble Modules: 5222 us
+[debug] Module Splitter: 10476 us
+[debug] Emitter: Generate Classes: 376805 us
+[debug] Emitter: Write trees: 61536 us
+[debug] Emitter: The set of dangerous global refs has changed. Going to re-generate the world.
+[debug] Emitter: Generate Classes: 127205 us
+[debug] Emitter: Write trees: 4135 us
+[debug] Emitter: Class tree cache stats: reused: 0 -- invalidated: 470
+[debug] Emitter: Method tree cache stats: reused: 0 -- invalidated: 1148
+[debug] Emitter: 605544 us
+[debug] BasicBackend: Write result: 252845 us
+[debug] BasicBackend: total top-level trees: 1671; re-computed: 1671
+[debug] BasicBackend: total modules: 1; re-written: 1

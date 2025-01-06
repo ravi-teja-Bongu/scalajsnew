@@ -1,0 +1,128 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.10.1 (Azul Systems, Inc. Java 11.0.23)
+[debug]       Load.loadUnit: plugins took 131.8697ms
+[debug]       Load.loadUnit: defsScala took 0.4787ms
+[debug] [Loading] Scanning directory C:\Users\Dell\.sbt\1.0\plugins
+[debug]         Load.loadUnit: mkEval took 9.3763ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Dell\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 23.7013 ms
+[info] loading settings for project global-plugins from idea.sbt ...
+[debug]           Load.resolveProject(global-plugins) took 70.1444ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\Dell\.sbt\1.0\plugins, plugins: List(<none>))) took 107.6027ms
+[debug] [Loading] Done in C:\Users\Dell\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 3116.1849ms
+[debug]       Load.loadUnit: cleanEvalClasses took 47.0903ms
+[debug]     Load.loadUnit(file:/C:/Users/Dell/.sbt/1.0/plugins/, ...) took 3307.115ms
+[debug]   Load.apply: load took 3548.3234ms
+[debug]   Load.apply: resolveProjects took 5.8107ms
+[debug]   Load.apply: finalTransforms took 72.6122ms
+[debug]   Load.apply: config.delegates took 8.7895ms
+[debug]   Load.apply: Def.make(settings)... took 509.4119ms
+[debug]   Load.apply: structureIndex took 124.232ms
+[debug]   Load.apply: mkStreams took 2.0822ms
+[info] loading global plugins from C:\Users\Dell\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 8329.1566ms
+[debug]           Load.loadUnit: plugins took 35.0583ms
+[debug]           Load.loadUnit: defsScala took 0.0068ms
+[debug] [Loading] Scanning directory C:\Users\Dell\Downloads\Texteditor_react_scala\Texteditor_react_scala\project
+[debug]             Load.loadUnit: mkEval took 1.0972ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Dell\Downloads\Texteditor_react_scala\Texteditor_react_scala\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.5731 ms
+[info] loading settings for project texteditor_react_scala-build from plugins.sbt ...
+[debug]               Load.resolveProject(texteditor_react_scala-build) took 1.3385ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id texteditor_react_scala-build, base: C:\Users\Dell\Downloads\Texteditor_react_scala\Texteditor_react_scala\project, plugins: List(<none>))) took 3.2842ms
+[debug] [Loading] Done in C:\Users\Dell\Downloads\Texteditor_react_scala\Texteditor_react_scala\project, returning: (texteditor_react_scala-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 74.1359ms
+[debug]           Load.loadUnit: cleanEvalClasses took 4.5019ms
+[debug]         Load.loadUnit(file:/C:/Users/Dell/Downloads/Texteditor_react_scala/Texteditor_react_scala/project/, ...) took 115.0701ms
+[debug]       Load.apply: load took 117.717ms
+[debug]       Load.apply: resolveProjects took 0.1847ms
+[debug]       Load.apply: finalTransforms took 15.5154ms
+[debug]       Load.apply: config.delegates took 0.5229ms
+[debug]       Load.apply: Def.make(settings)... took 95.2625ms
+[debug]       Load.apply: structureIndex took 28.9606ms
+[debug]       Load.apply: mkStreams took 0.0036ms
+[info] loading project definition from C:\Users\Dell\Downloads\Texteditor_react_scala\Texteditor_react_scala\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 1223.5619ms
+[debug]     Load.loadUnit: defsScala took 0.5396ms
+[debug] [Loading] Scanning directory C:\Users\Dell\Downloads\Texteditor_react_scala\Texteditor_react_scala
+[debug]       Load.loadUnit: mkEval took 0.7746ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(org.scalajs.sbtplugin.ScalaJSPlugin), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.scalajs.sbtplugin.ScalaJSPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.portablescala.sbtplatformdeps.PlatformDepsPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.portablescala.sbtplatformdeps.PlatformDepsPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,org.scalajs.sbtplugin.ScalaJSPlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,org.portablescala.sbtplatformdeps.PlatformDepsPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.1079 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 32.2785ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\Dell\Downloads\Texteditor_react_scala\Texteditor_react_scala, plugins: List(<none>))) took 36.9892ms
+[debug] [Loading] Done in C:\Users\Dell\Downloads\Texteditor_react_scala\Texteditor_react_scala, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 3819.3597ms
+[debug]     Load.loadUnit: cleanEvalClasses took 11.9134ms
+[debug]   Load.loadUnit(file:/C:/Users/Dell/Downloads/Texteditor_react_scala/Texteditor_react_scala/, ...) took 5059.4269ms
+[debug] Load.apply: load took 5061.9159ms
+[debug] Load.apply: resolveProjects took 0.1554ms
+[debug] Load.apply: finalTransforms took 14.9123ms
+[debug] Load.apply: config.delegates took 0.4619ms
+[debug] Load.apply: Def.make(settings)... took 85.7098ms
+[debug] Load.apply: structureIndex took 26.099ms
+[debug] Load.apply: mkStreams took 0.0038ms
+[info] set current project to Texteditor_react_scala (in build file:/C:/Users/Dell/Downloads/Texteditor_react_scala/Texteditor_react_scala/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-24859a5536868bdfc603
+[debug] Writing bsp connection file

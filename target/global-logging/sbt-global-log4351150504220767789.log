@@ -1,0 +1,8 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to C:\Users\Dell\Downloads\Texteditor_react_scala\Texteditor_react_scala\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Global IR cache stats: reused: 0 -- invalidated: 0 -- trees read: 0
+[success] Total time: 2 s, completed Jul 23, 2024, 7:10:36 PM
+[debug] > Exec(idea-shell, None, None)

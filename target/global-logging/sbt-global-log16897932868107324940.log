@@ -1,0 +1,7 @@
+[debug] > Exec(clean, None, None)
+[debug] Evaluating tasks: clean
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Global IR cache stats: reused: 0 -- invalidated: 0 -- trees read: 0
+[debug] Forcing garbage collection...
+[success] Total time: 0 s, completed Aug 6, 2024, 8:04:07 PM
+[debug] > Exec(idea-shell, None, None)
